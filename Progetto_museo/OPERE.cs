@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progetto_museo
 {
-	public class Nascita_di_venere
+	public class OPERE
 	{
 		public string Nome { get; set; }
 		public DateTime data_di_pubblicazione { get; set; }
