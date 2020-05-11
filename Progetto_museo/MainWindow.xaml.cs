@@ -23,6 +23,7 @@ namespace Progetto_museo
 		public MainWindow()
 		{
 			InitializeComponent();
+
 		}
 	}
 }
