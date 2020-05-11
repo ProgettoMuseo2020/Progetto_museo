@@ -11,14 +11,14 @@
             <ImageBrush/>
         </Grid.Background>
         <Image Source="Ingresso_museo_SAME.jpg" Stretch="Fill"/>
-        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Txt_primo" HorizontalAlignment="Left" Height="99" Margin="90,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Txt_primo_TextChanged"/>
+        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="75" Click="Btn_primo_Click"/>
         <Button x:Name="Btn_secondo" Content="Carica" HorizontalAlignment="Left" Margin="271,93,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Txt_secondo" HorizontalAlignment="Left" Height="105" Margin="368,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Txt_primo_TextChanged"/>
         <Button x:Name="Btn_terzo" Content="Carica" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Txt_terzo" HorizontalAlignment="Left" Height="99" Margin="100,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Txt_primo_TextChanged"/>
         <Button x:Name="Btn_quarto" Content="Carica" HorizontalAlignment="Left" Margin="271,262,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Txt_quarto" HorizontalAlignment="Left" Height="99" Margin="368,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Txt_primo_TextChanged"/>
+        <ListBox x:Name="Lst_primo" HorizontalAlignment="Left" Height="100" Margin="90,15,0,0" VerticalAlignment="Top" Width="133"/>
+        <ListBox x:Name="Lst_secondo" HorizontalAlignment="Left" Height="100" Margin="367,15,0,0" VerticalAlignment="Top" Width="133"/>
+        <ListBox x:Name="Lst_terzo" HorizontalAlignment="Left" Height="100" Margin="90,184,0,0" VerticalAlignment="Top" Width="133"/>
+        <ListBox x:Name="Lst_quarto" HorizontalAlignment="Left" Height="100" Margin="367,184,0,0" VerticalAlignment="Top" Width="133"/>
 
     </Grid>
 </Window>
