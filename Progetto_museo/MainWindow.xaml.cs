@@ -37,7 +37,7 @@ namespace Progetto_museo
 		private void CaricaDati()
 		{
 			Nascita_di_venere opera = new Nascita_di_venere();
-			string path = @"nascita_di_venere";
+			string path = @"nascitadivenere.xml";
 			XDocument xmlDoc = XDocument.Load(path);
 			XElement xmlmuseo = xmlDoc.Element("museo");
 			var xmlopere = xmlmuseo.Elements("opere");
@@ -45,7 +45,7 @@ namespace Progetto_museo
 			{
 				XElement xmlFirstname = item.Element("nome");
 				XElement xmlData = item.Element("data");
-				XElement xmlAutore = item.Element("Autore");
+				XElement xmlAutore = item.Element("autore");
 				XElement xmlPosizione = item.Element("posizione");
 				Nascita_di_venere a = new Nascita_di_venere();
 				a.Nome = xmlFirstname.Value;

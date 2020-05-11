@@ -16,7 +16,7 @@ namespace Progetto_museo
 
 		public override string ToString()
 		{
-			return $"{Nome} {data_di_pubblicazione} {Autore} {Posizione}";
+			return $"il nome è:{Nome} \nla data di pubblicazione è:{data_di_pubblicazione} \nl'autore è:{Autore} \nposizione:{Posizione}";
 		}
 	}
 
