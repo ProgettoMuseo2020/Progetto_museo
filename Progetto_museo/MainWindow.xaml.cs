@@ -85,5 +85,34 @@ namespace Progetto_museo
 				Dispatcher.Invoke(() => Lst_secondo.Items.Add(opera));
 			}
 		}
+
+		private void Btn_terzo_Click(object sender, RoutedEventArgs e)
+		{
+			Lst_terzo.Items.Clear();
+			Task.Factory.StartNew(() => caricadati());
+		}
+
+		private void caricadati()
+		{
+			OPERE opera = new OPERE();
+			string path = @"duchi_di_urbino.xml";
+			XDocument xmlDoc = XDocument.Load(path);
+			XElement xmlmuseo = xmlDoc.Element("museo");
+			var xmlopere = xmlmuseo.Elements("opere");
+			foreach (var item in xmlopere)
+			{
+				XElement xmlFirstname = item.Element("nome");
+				XElement xmlData = item.Element("data");
+				XElement xmlAutore = item.Element("autore");
+				XElement xmlPosizione = item.Element("posizione");
+				OPERE a = new OPERE();
+				a.Nome = xmlFirstname.Value;
+				a.data_di_pubblicazione = Convert.ToDateTime(xmlData.Value);
+				a.Autore = xmlAutore.Value;
+				a.Posizione = xmlPosizione.Value;
+				opera = a;
+				Dispatcher.Invoke(() => Lst_terzo.Items.Add(opera));
+			}
+		}
 	}
 }
