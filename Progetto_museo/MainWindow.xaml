@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Progetto_museo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="441.839" Width="658.058">
     <Grid>
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
         <Image Source="Ingresso_museo_SAME.jpg" Stretch="Fill"/>
-        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="75" Click="Btn_primo_Click"/>
-        <Button x:Name="Btn_secondo" Content="Carica" HorizontalAlignment="Left" Margin="271,114,0,0" VerticalAlignment="Top" Width="75" Click="Btn_secondo_Click"/>
-        <Button x:Name="Btn_terzo" Content="Carica" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Width="75" Click="Btn_terzo_Click"/>
-        <Button x:Name="Btn_quarto" Content="Carica" HorizontalAlignment="Left" Margin="271,288,0,0" VerticalAlignment="Top" Width="75" Click="Btn_quarto_Click"/>
-        <ListBox x:Name="Lst_primo" HorizontalAlignment="Left" Height="121" Margin="90,15,0,0" VerticalAlignment="Top" Width="160"/>
-        <ListBox x:Name="Lst_secondo" HorizontalAlignment="Left" Height="121" Margin="351,15,0,0" VerticalAlignment="Top" Width="156"/>
-        <ListBox x:Name="Lst_terzo" HorizontalAlignment="Left" Height="126" Margin="90,184,0,0" VerticalAlignment="Top" Width="160"/>
-        <ListBox x:Name="Lst_quarto" HorizontalAlignment="Left" Height="126" Margin="351,184,0,0" VerticalAlignment="Top" Width="156"/>
+        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="75" Click="Btn_primo_Click"/>
+        <Button x:Name="Btn_secondo" Content="Carica" HorizontalAlignment="Left" Margin="319,144,0,0" VerticalAlignment="Top" Width="75" Click="Btn_secondo_Click"/>
+        <Button x:Name="Btn_terzo" Content="Carica" HorizontalAlignment="Left" Margin="10,371,0,0" VerticalAlignment="Top" Width="75" Click="Btn_terzo_Click"/>
+        <Button x:Name="Btn_quarto" Content="Carica" HorizontalAlignment="Left" Margin="319,371,0,0" VerticalAlignment="Top" Width="75" Click="Btn_quarto_Click"/>
+        <ListBox x:Name="Lst_primo" HorizontalAlignment="Left" Height="156" Margin="90,10,0,0" VerticalAlignment="Top" Width="218"/>
+        <ListBox x:Name="Lst_secondo" HorizontalAlignment="Left" Height="156" Margin="399,10,0,0" VerticalAlignment="Top" Width="233"/>
+        <ListBox x:Name="Lst_terzo" HorizontalAlignment="Left" Height="179" Margin="90,214,0,0" VerticalAlignment="Top" Width="224"/>
+        <ListBox x:Name="Lst_quarto" HorizontalAlignment="Left" Height="179" Margin="399,214,0,0" VerticalAlignment="Top" Width="233"/>
 
     </Grid>
 </Window>
