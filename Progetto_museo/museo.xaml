@@ -1,0 +1,22 @@
+﻿<Window x:Class="Progetto_museo.museo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Progetto_museo"
+        mc:Ignorable="d"
+        Title="museo" Height="448.013" Width="664.57">
+    <Grid Margin="0,0,197,31">
+        <Image Margin="0,0,-198,-33" Source="unnamed.jpg" Stretch="Fill"/>
+        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="75" Click="Btn_primo_Click"/>
+        <ListBox x:Name="Lst_primo" HorizontalAlignment="Left" Height="156" Margin="90,10,0,0" VerticalAlignment="Top" Width="218"/>
+        <Button x:Name="Btn_secondo" Content="Carica" HorizontalAlignment="Left" Margin="319,144,-38,0" VerticalAlignment="Top" Width="75" Click="Btn_secondo_Click"/>
+        <ListBox x:Name="Lst_secondo" HorizontalAlignment="Left" Height="156" Margin="399,10,-206,0" VerticalAlignment="Top" Width="233"/>
+        <Button x:Name="Btn_terzo" Content="Carica" HorizontalAlignment="Left" Margin="10,371,0,-6" VerticalAlignment="Top" Width="75" Click="Btn_terzo_Click"/>
+        <ListBox x:Name="Lst_terzo" HorizontalAlignment="Left" Height="179" Margin="90,214,0,-6" VerticalAlignment="Top" Width="224"/>
+        <Button x:Name="Btn_quarto" Content="Carica" HorizontalAlignment="Left" Margin="319,371,0,-6" VerticalAlignment="Top" Width="75" Click="Btn_quarto_Click"/>
+        <ListBox x:Name="Lst_quarto" HorizontalAlignment="Left" Height="179" Margin="399,214,-172,-6" VerticalAlignment="Top" Width="233"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="768,229,-383,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

@@ -11,14 +11,7 @@
             <ImageBrush/>
         </Grid.Background>
         <Image Source="Ingresso_museo_SAME.jpg" Stretch="Fill"/>
-        <Button x:Name="Btn_primo" Content="Carica" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="75" Click="Btn_primo_Click"/>
-        <Button x:Name="Btn_secondo" Content="Carica" HorizontalAlignment="Left" Margin="319,144,0,0" VerticalAlignment="Top" Width="75" Click="Btn_secondo_Click"/>
-        <Button x:Name="Btn_terzo" Content="Carica" HorizontalAlignment="Left" Margin="10,371,0,0" VerticalAlignment="Top" Width="75" Click="Btn_terzo_Click"/>
-        <Button x:Name="Btn_quarto" Content="Carica" HorizontalAlignment="Left" Margin="319,371,0,0" VerticalAlignment="Top" Width="75" Click="Btn_quarto_Click"/>
-        <ListBox x:Name="Lst_primo" HorizontalAlignment="Left" Height="156" Margin="90,10,0,0" VerticalAlignment="Top" Width="218"/>
-        <ListBox x:Name="Lst_secondo" HorizontalAlignment="Left" Height="156" Margin="399,10,0,0" VerticalAlignment="Top" Width="233"/>
-        <ListBox x:Name="Lst_terzo" HorizontalAlignment="Left" Height="179" Margin="90,214,0,0" VerticalAlignment="Top" Width="224"/>
-        <ListBox x:Name="Lst_quarto" HorizontalAlignment="Left" Height="179" Margin="399,214,0,0" VerticalAlignment="Top" Width="233"/>
+        <Button x:Name="Btn_entra" Content="Entra" HorizontalAlignment="Left" Margin="190,272,0,0" VerticalAlignment="Top" Width="75" Click="Btn_entra_Click"/>
 
     </Grid>
 </Window>
