@@ -27,11 +27,12 @@ namespace Progetto_museo
 			
 
 		}
+		
 
 		private void Btn_entra_Click(object sender, RoutedEventArgs e)
 		{
-			museo mb = new museo();
-			mb.Show();
+			opzione2 op = new opzione2();
+			op.Show();
 		}
 	}
 }

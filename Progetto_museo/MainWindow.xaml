@@ -12,6 +12,7 @@
         </Grid.Background>
         <Image Source="Ingresso_museo_SAME.jpg" Stretch="Fill"/>
         <Button x:Name="Btn_entra" Content="Entra" HorizontalAlignment="Left" Margin="190,272,0,0" VerticalAlignment="Top" Width="75" Click="Btn_entra_Click"/>
+        <Label x:Name="lbl_testo" Content="Clicca entra per entrare nel museo" HorizontalAlignment="Left" Margin="400,241,0,0" VerticalAlignment="Top" Width="211" Background="White"/>
 
     </Grid>
 </Window>
