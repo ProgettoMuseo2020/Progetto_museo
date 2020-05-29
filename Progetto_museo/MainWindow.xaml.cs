@@ -33,6 +33,7 @@ namespace Progetto_museo
 		{
 			opzione2 op = new opzione2();
 			op.Show();
+			this.Hide();
 		}
 	}
 }

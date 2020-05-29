@@ -9,13 +9,13 @@
     <Grid>
         <Image Source="unnamed.jpg" Stretch="Fill"/>
 
-        <RadioButton x:Name="Rbn_nascitadivenre" Content="Nascita di venere" HorizontalAlignment="Left" Margin="26,56,0,0" VerticalAlignment="Top" Background="White" Foreground="Black"/>
-        <RadioButton x:Name="Rbn_primavera" Content="primavera" HorizontalAlignment="Left" Margin="26,77,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="Rbn_duchidiurbino" Content="Duchi di urbino" HorizontalAlignment="Left" Margin="26,98,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Rbn_nascitadivenre" Content="Nascita di venere" HorizontalAlignment="Left" Margin="18,56,0,0" VerticalAlignment="Top" Background="White" Foreground="Black" FontSize="16"/>
+        <RadioButton x:Name="Rbn_primavera" Content="Primavera" HorizontalAlignment="Left" Margin="18,77,0,0" VerticalAlignment="Top" FontSize="16" Foreground="Black"/>
+        <RadioButton x:Name="Rbn_duchidiurbino" Content="Duchi di urbino" HorizontalAlignment="Left" Margin="18,98,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="Btn_prova" Content="Carica" HorizontalAlignment="Left" Margin="26,163,0,0" VerticalAlignment="Top" Width="75" Click="Btn_prova_Click"/>
         <ListBox x:Name="Lst_prova" HorizontalAlignment="Left" Height="225" Margin="160,38,0,0" VerticalAlignment="Top" Width="395"/>
         <Button x:Name="Btn_resetta" Content="Reset" HorizontalAlignment="Left" Margin="26,190,0,0" VerticalAlignment="Top" Width="75" Click="Btn_resetta_Click"/>
-        <RadioButton x:Name="Rbn_bustodinerone" Content="Busto di nerone" HorizontalAlignment="Left" Margin="26,119,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Rbn_bustodinerone" Content="Busto di nerone" HorizontalAlignment="Left" Margin="18,119,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="Btn_Sito" Content="Vai" HorizontalAlignment="Left" Margin="160,359,0,0" VerticalAlignment="Top" Width="238" Click="Btn_Sito_Click" Height="66" FontSize="22"/>
         <Image Margin="403,288,25,10" Source="Sito.png" Stretch="Fill"/>
         <TextBox x:Name="txt_sito" HorizontalAlignment="Left" Height="66" Margin="160,288,0,0" TextWrapping="Wrap" Text="per maggiori informazioni visitate il nostro sito cliccando il pulsante vai o scannerizzando il nostro qrcode" VerticalAlignment="Top" Width="238" IsReadOnly="True" FontSize="14"/>
