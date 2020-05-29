@@ -5,17 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Progetto_museo"
         mc:Ignorable="d"
-        Title="opzione2" Height="374.503" Width="543.377">
+        Title="opzione2" Height="464.932" Width="588.135">
     <Grid>
         <Image Source="unnamed.jpg" Stretch="Fill"/>
 
-        <RadioButton x:Name="Rbn_nascitadivenre" Content="Nascita di venere" HorizontalAlignment="Left" Margin="26,56,0,0" VerticalAlignment="Top" Background="White"/>
+        <RadioButton x:Name="Rbn_nascitadivenre" Content="Nascita di venere" HorizontalAlignment="Left" Margin="26,56,0,0" VerticalAlignment="Top" Background="White" Foreground="Black"/>
         <RadioButton x:Name="Rbn_primavera" Content="primavera" HorizontalAlignment="Left" Margin="26,77,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="Rbn_duchidiurbino" Content="Duchi di urbino" HorizontalAlignment="Left" Margin="26,98,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Btn_prova" Content="Carica" HorizontalAlignment="Left" Margin="26,140,0,0" VerticalAlignment="Top" Width="75" Click="Btn_prova_Click"/>
-        <ListBox x:Name="Lst_prova" HorizontalAlignment="Left" Height="151" Margin="160,38,0,0" VerticalAlignment="Top" Width="354"/>
-        <Button x:Name="Btn_resetta" Content="resetta" HorizontalAlignment="Left" Margin="26,167,0,0" VerticalAlignment="Top" Width="75" Click="Btn_resetta_Click"/>
+        <Button x:Name="Btn_prova" Content="Carica" HorizontalAlignment="Left" Margin="26,163,0,0" VerticalAlignment="Top" Width="75" Click="Btn_prova_Click"/>
+        <ListBox x:Name="Lst_prova" HorizontalAlignment="Left" Height="225" Margin="160,38,0,0" VerticalAlignment="Top" Width="395"/>
+        <Button x:Name="Btn_resetta" Content="Reset" HorizontalAlignment="Left" Margin="26,190,0,0" VerticalAlignment="Top" Width="75" Click="Btn_resetta_Click"/>
         <RadioButton x:Name="Rbn_bustodinerone" Content="Busto di nerone" HorizontalAlignment="Left" Margin="26,119,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Btn_Sito" Content="Vai" HorizontalAlignment="Left" Margin="298,403,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Sito_Click"/>
+        <Image Margin="403,288,25,10" Source="Sito.png" Stretch="Fill"/>
+        <TextBox x:Name="txt_sito" HorizontalAlignment="Left" Height="89" Margin="175,297,0,0" TextWrapping="Wrap" Text="per maggiori informazioni visitate il nostro sito cliccando il pulsante vai o scannerizzando il nostro qrcode" VerticalAlignment="Top" Width="223" IsReadOnly="True"/>
 
     </Grid>
 </Window>

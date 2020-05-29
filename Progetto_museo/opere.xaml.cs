@@ -52,7 +52,7 @@ namespace Progetto_museo
 					opera = a;
 					Dispatcher.Invoke(() => Lst_prova.Items.Add(opera));
 				}
-				
+
 			}
 			else if (Rbn_primavera.IsChecked == true)
 			{
@@ -75,9 +75,9 @@ namespace Progetto_museo
 					opera = a;
 					Dispatcher.Invoke(() => Lst_prova.Items.Add(opera));
 				}
-				
+
 			}
-			else if (Rbn_nascitadivenre.IsChecked==true)
+			else if (Rbn_nascitadivenre.IsChecked == true)
 			{
 				OPERE opera = new OPERE();
 				string path = @"nascitadivenere.xml";
@@ -98,9 +98,9 @@ namespace Progetto_museo
 					opera = a;
 					Dispatcher.Invoke(() => Lst_prova.Items.Add(opera));
 				}
-				
+
 			}
-			else if(Rbn_bustodinerone.IsChecked==true)
+			else if (Rbn_bustodinerone.IsChecked == true)
 			{
 				OPERE opera = new OPERE();
 				string path = @"busto_di_nerone.xml";
@@ -122,6 +122,7 @@ namespace Progetto_museo
 					Dispatcher.Invoke(() => Lst_prova.Items.Add(opera));
 				}
 			}
+			
 		}
 
 		private void Btn_resetta_Click(object sender, RoutedEventArgs e)
@@ -131,6 +132,11 @@ namespace Progetto_museo
 			Rbn_primavera.IsChecked = false;
 			Rbn_duchidiurbino.IsChecked = false;
 			Rbn_bustodinerone.IsChecked = false;
+		}
+
+		private void Btn_Sito_Click(object sender, RoutedEventArgs e)
+		{
+			System.Diagnostics.Process.Start("https://progettomuseo2020.github.io/");
 		}
 	}
 }
