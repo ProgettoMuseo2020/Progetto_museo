@@ -16,9 +16,9 @@
         <ListBox x:Name="Lst_prova" HorizontalAlignment="Left" Height="225" Margin="160,38,0,0" VerticalAlignment="Top" Width="395"/>
         <Button x:Name="Btn_resetta" Content="Reset" HorizontalAlignment="Left" Margin="26,190,0,0" VerticalAlignment="Top" Width="75" Click="Btn_resetta_Click"/>
         <RadioButton x:Name="Rbn_bustodinerone" Content="Busto di nerone" HorizontalAlignment="Left" Margin="26,119,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Btn_Sito" Content="Vai" HorizontalAlignment="Left" Margin="298,403,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Sito_Click"/>
+        <Button x:Name="Btn_Sito" Content="Vai" HorizontalAlignment="Left" Margin="160,359,0,0" VerticalAlignment="Top" Width="238" Click="Btn_Sito_Click" Height="66" FontSize="22"/>
         <Image Margin="403,288,25,10" Source="Sito.png" Stretch="Fill"/>
-        <TextBox x:Name="txt_sito" HorizontalAlignment="Left" Height="89" Margin="175,297,0,0" TextWrapping="Wrap" Text="per maggiori informazioni visitate il nostro sito cliccando il pulsante vai o scannerizzando il nostro qrcode" VerticalAlignment="Top" Width="223" IsReadOnly="True"/>
+        <TextBox x:Name="txt_sito" HorizontalAlignment="Left" Height="66" Margin="160,288,0,0" TextWrapping="Wrap" Text="per maggiori informazioni visitate il nostro sito cliccando il pulsante vai o scannerizzando il nostro qrcode" VerticalAlignment="Top" Width="238" IsReadOnly="True" FontSize="14"/>
 
     </Grid>
 </Window>
